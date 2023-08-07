@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #c04343;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(224, 178, 178);
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
